@@ -1,0 +1,39 @@
+png 120 120 hw2persp.png
+ 
+loadp 1 0 0 0   0 1 0 0   0 0 -1.01 0.3   0 0 -1 0
+loadmv 1 0 0 0.5   0 1 0 0   0 0 1 0.6   0 0 0 1
+
+color 0 0 1
+texcoord 5 0
+xyz 0 0.5 0
+texcoord 0 0
+xyz 0 -0.5 0
+color 1 0 0
+texcoord 5 5
+xyz 0 0.5 2
+texcoord 0 5
+xyz 0 -0.5 2
+
+trig 1 2 3
+trig 2 3 4
+
+
+loadmv 2 0 0 0   0 1 0 0   0 0 1 0.6   0 0 0 1
+
+xyz  1 -.1 1
+xyz -1 -.1 1
+xyz  1 0.1 1
+xyz -1 0.1 1
+
+
+
+color 0 0.5 0
+trif -1 -2 -3
+trif -2 -3 -4
+
+loadmv 1 0 0 -0.5   0 1 0 0   0 0 1 0.6   0 0 0 1
+texture splat2.png
+
+trit 1 2 3
+trit 2 3 4
+
