@@ -1,0 +1,16 @@
+png 120 120 hw1linewc.png
+
+xyc 100.5 30.5  #000000
+xyc 23 99       #000000
+
+xyc 10.5 20.5   #000000
+xyc 103 89      #000000
+
+linewc 2 3 3 #000000
+linewc 2 4 23.5 #ffffff
+
+linewc 1 2 13.5 #0000ff
+linewc 3 4 3.5 #00ff00
+
+linewc 1 3 1 #ff0000
+linewc 1 4 1.5 #ff0000

@@ -1,0 +1,126 @@
+png 120 120 hw2ball.png
+
+normal 0  0.25  0.4045
+xyz    0  0.25  0.4045
+normal 0  0.25 -0.4045
+xyz    0  0.25 -0.4045
+normal 0 -0.25  0.4045
+xyz    0 -0.25  0.4045
+normal 0 -0.25 -0.4045
+xyz    0 -0.25 -0.4045
+
+normal  0.25  0.4045 0
+xyz     0.25  0.4045 0
+normal  0.25 -0.4045 0
+xyz     0.25 -0.4045 0
+normal -0.25  0.4045 0
+xyz    -0.25  0.4045 0
+normal -0.25 -0.4045 0
+xyz    -0.25 -0.4045 0
+
+normal  0.4045 0  0.25 
+xyz     0.4045 0  0.25 
+normal -0.4045 0  0.25 
+xyz    -0.4045 0  0.25 
+normal  0.4045 0 -0.25 
+xyz     0.4045 0 -0.25 
+normal -0.4045 0 -0.25 
+xyz    -0.4045 0 -0.25 
+
+shininess 20
+
+translate 0 -0.5 0.5
+rotatey 15
+rotatex 10
+sunlight 1 -2 -3
+
+color 1 0.8 0.6
+
+trif 1 3 9
+trif 1 3 10
+trif 2 4 11
+trif 2 4 12
+
+trif 5 7 1
+trif 5 7 2
+trif 6 8 3
+trif 6 8 4
+
+trif 9 11 5
+trif 9 11 6
+trif 10 12 7
+trif 10 12 8
+
+trif 1 5 9
+trif 1 7 10
+trif 2 5 11
+trif 2 7 12
+trif 3 6 9
+trif 3 8 10
+trif 4 6 11
+trif 4 8 12
+
+rotatex -10
+rotatey -15
+translate 0 0.75 0
+scale 2 0.5 1
+rotatey 15
+rotatex 10
+
+trif 1 3 9
+trif 1 3 10
+trif 2 4 11
+trif 2 4 12
+
+trif 5 7 1
+trif 5 7 2
+trif 6 8 3
+trif 6 8 4
+
+trif 9 11 5
+trif 9 11 6
+trif 10 12 7
+trif 10 12 8
+
+trif 1 5 9
+trif 1 7 10
+trif 2 5 11
+trif 2 7 12
+trif 3 6 9
+trif 3 8 10
+trif 4 6 11
+trif 4 8 12
+
+
+
+rotatex -10
+rotatey -15
+scale 0.5 2 1
+translate 0 0.5 0
+scale 2 0.5 0.25
+rotatey 15
+rotatex 10
+
+trif 1 3 9
+trif 1 3 10
+trif 2 4 11
+trif 2 4 12
+
+trif 5 7 1
+trif 5 7 2
+trif 6 8 3
+trif 6 8 4
+
+trif 9 11 5
+trif 9 11 6
+trif 10 12 7
+trif 10 12 8
+
+trif 1 5 9
+trif 1 7 10
+trif 2 5 11
+trif 2 7 12
+trif 3 6 9
+trif 3 8 10
+trif 4 6 11
+trif 4 8 12

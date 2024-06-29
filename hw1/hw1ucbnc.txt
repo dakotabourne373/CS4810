@@ -1,0 +1,9 @@
+png 120 120 hw1ucbnc.png
+
+xyc 100.5 30.5  #ffffff
+xyc  23   99    #ffffff
+xyc  10.5 20.5  #ffffff
+xyc 103   89    #ffffff
+xyc  30   60    #ffffff
+
+ucbnc 11   5 5 5 1 2 3 4 1 2 2 2   #007777
