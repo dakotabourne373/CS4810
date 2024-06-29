@@ -1,0 +1,21 @@
+png 120 120 hw2darkness.png
+
+normal 2 0 -1
+xyz    1 0 0
+
+normal -1 2 -1
+xyz    -1 1 1
+
+normal -1 -2 -1
+xyz    -1 -1 0
+
+xyz 0 0 -2
+color 3 2 1
+bulb -1
+
+xyz 0 0 0
+color -2 -2 -2
+bulb -1
+
+color 1 1 1
+trif 1 2 3

@@ -1,0 +1,18 @@
+png 120 120 hw2decals.png
+
+decals
+
+texcoord -2 0
+color 1 0 0
+xyz -1 0 0.5
+
+color 0 0 1
+texcoord 1 0
+xyz 0.6 1 0.5
+
+color 1 1 1
+texcoord 0.5 3
+xyz 1 -1 0.5
+
+texture splat2.png
+trit 1 2 3

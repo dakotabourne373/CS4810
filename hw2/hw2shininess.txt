@@ -1,0 +1,37 @@
+png 120 120 hw2shininess.png
+
+normal  1  1 -1
+xyz    -1 -1  1
+
+normal  1 -1 -1
+xyz    -1  1  1
+
+normal -1 -1 -1
+xyz     1  1  1
+
+normal -1  1 -1
+xyz     1 -1  1
+
+normal  0  0 -1
+xyz     0  0  0
+
+xyz 0 0 -1
+color 0.2 0.2 0.2
+bulb -1
+
+xyz 2 -1 -1
+color 1 0 0
+bulb -1
+
+xyz -3 -4 1
+color 0 1 1
+bulb -1
+
+color 1 1 1
+trif 1 2 5
+shininess 160
+trif 2 3 5
+color 0.5 0.5 0.5
+trif 3 4 5
+shininess 240
+trif 4 1 5
