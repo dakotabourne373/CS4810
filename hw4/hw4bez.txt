@@ -1,0 +1,36 @@
+pngs 120 120 hw4bez- 36
+fps 12
+
+bez x 0  3 1 -1  18 -3 -4 4  36  3
+bez y 0  3 3 3  18  3 0 2  27  2 2 0 36 3
+bez q 0  0 0 0  18  0 0.5 0.2  27  0.2 0.2 -1  36  0
+
+bez x2 0  -3 -4 4  18  3 1 -1  36  -3
+bez y2 0  3 0 2  9  2 2 0  18  3
+bez q2 0  0 0.5 0.2  9  0.2 0.2 -1  18  0
+
+
+# Set a 3-by-2 aspect ratio, 90° field-of-view in Y, near plane at 0.1, far plane at 10
+loadp 1 0 0 0  0 1 0 0  0 0 -1.02020202020202 -0.20202020202020202  0 0 -1 0
+
+object foot1 world
+position x y -5
+quaternion 1 0 0 q
+xyz -1 -0.3 0
+xyz -1  0.3 0
+xyz  1 -0.3 0
+xyz  1  0.3 0
+color 0 0.5 0
+trif 1 2 3
+trif 2 3 4
+
+object foot2 world
+position x2 y2 -5
+quaternion 1 0 0 q2
+xyz -1 -0.3 0
+xyz -1  0.3 0
+xyz  1 -0.3 0
+xyz  1  0.3 0
+color 0.75 0 0
+trif 1 2 3
+trif 2 3 4

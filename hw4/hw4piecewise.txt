@@ -1,0 +1,28 @@
+pngs 120 120 hw4piecewise- 48
+fps 24
+div t f 40
+
+mul x1 t 4
+add x x1 -2
+
+pow tsq t 2
+mul y1a tsq 16
+add y1 y1a -2
+
+mul lin t -24
+add lin2 lin 10
+add y2 y1a lin2
+piecewise y y1 20 y2 40 2
+
+# Set a 3-by-2 aspect ratio, 90° field-of-view in Y, near plane at 0.1, far plane at 10
+loadp 1 0 0 0  0 1 0 0  0 0 -1.02020202020202 -0.20202020202020202  0 0 -1 0
+
+object thing world
+position x y -3
+xyz -1 -1 0
+xyz -1  1 0
+xyz  1 -1 0
+xyz  1  1 0
+color 0 0.5 0
+trif 1 2 3
+trif 2 3 4
