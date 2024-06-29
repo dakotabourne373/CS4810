@@ -1,0 +1,28 @@
+txts 200 200 hw5springtet- 120
+gravity 0 -0.1 0
+
+wall 0 1 0 3
+plane 0 1 0 3
+wall 1 0 0 3
+wall -1 0 0 3
+wall 0 0 1 8
+plane 0 0 1 8
+wall 0 0 -1 -2
+
+color .6 .7 .8
+sun 1 1 .5
+color .4 .3 .2
+sun -.5 1 0
+
+radius 0.22
+color 0 1 1
+elasticity 0.5
+mass 0.1
+springconst 10
+subsample 30
+tet 6   -1 0 -4   1 0 -6   -1 2 -6   1 2 -4
+
+mass 8.4
+color 1 0.5 0
+radius 1
+ball 0.1 4 -4.9  0 0 0

@@ -1,0 +1,26 @@
+txts 200 200 hw5springelasticity- 40
+
+fps 8
+radius 0.5
+
+wall 1 0 0 3
+wall -1 0 0 3
+
+color 1 1 1
+sun 1 1 1
+
+elasticity 1
+ball -2 2 -4  0.3 0 0
+ball 0.5 2 -4  0 0 0
+
+
+elasticity 1
+ball -2 0 -4  0.3 0 0
+elasticity .5
+ball 0.5 0 -4  0 0 0
+
+
+elasticity 0
+ball -2 -2 -4  0.3 0 0
+ball 0.5 -2 -4  0 0 0
+

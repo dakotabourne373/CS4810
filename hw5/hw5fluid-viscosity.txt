@@ -1,0 +1,4 @@
+pngs 30 120 hw5fluidviscosity- 150
+fps 15
+heat 1 2 0.1
+viscosity 1.2

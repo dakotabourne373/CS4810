@@ -1,0 +1,4 @@
+pngs 30 120 hw5fluiddiffuse- 150
+fps 15
+heat 1 1 0.1
+diffuse 1.2

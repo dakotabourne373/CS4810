@@ -1,0 +1,5 @@
+pngs 120 120 hw5fluidtconfine2- 300
+fps 15
+heat 0.5 1 1
+tconfine
+diffuse 0.015

@@ -1,0 +1,5 @@
+pngs 120 120 hw5fluidconfine2- 300
+fps 15
+heat 0 1 8
+confine
+viscosity 0.5

@@ -1,0 +1,5 @@
+pngs 200 45 hw5fluiddiffvisc- 300
+fps 15
+heat 0.5 2 0.1
+diffuse 1.2
+viscosity 0.4

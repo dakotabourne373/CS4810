@@ -1,0 +1,21 @@
+txts 200 200 hw5springmass- 40
+
+fps 8
+radius 0.5
+
+color 1 1 1
+sun 1 1 1
+
+mass 1
+ball -2 2 -4  0.1 0 0
+ball 2 2 -4  -0.1 0 0
+
+mass 1.5
+ball -2 0 -4  0.1 0 0
+mass 0.75
+ball 2 0 -4  -0.1 0 0
+
+mass 3
+ball -2 -2 -4  0.1 0 0
+mass 0.3
+ball 2 -2 -4  -0.1 0 0

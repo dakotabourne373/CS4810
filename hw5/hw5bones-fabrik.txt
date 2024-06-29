@@ -1,0 +1,166 @@
+pngs 300 200 hw5fabrik- 60
+
+fps 8
+div t f l
+
+mul ang3 t 360
+cos c3 ang3
+sin s3 ang3
+mul x3 c3 10
+mul y3 s3 10
+add z3 y3 -12
+
+
+# Set a 3-by-2 aspect ratio, 90° field-of-view in Y, near plane at 0.1, far plane at 20
+loadp 0.6666666666666 0 0 0  0 1 0 0  0 0 -1.0100502512562815 -0.20100502512562815  0 0 -1 0
+
+object anchor world
+position 0 0 -5
+xyz -0.5 -0.5 -0.5
+xyz -0.5 -0.5  0.5
+xyz -0.5  0.5 -0.5
+xyz -0.5  0.5  0.5
+xyz  0.5 -0.5 -0.5
+xyz  0.5 -0.5  0.5
+xyz  0.5  0.5 -0.5
+xyz  0.5  0.5  0.5
+color 0 0.5 0.5
+trif 1 2 3
+trif 2 3 4
+color 1 0.5 0.5
+trif 5 6 7
+trif 6 7 8
+color 0.5 0 0.5
+trif 1 2 5
+trif 2 5 6
+color 0.5 1 0.5
+trif 3 4 7
+trif 4 7 8
+color 0.5 0.5 0
+trif 1 3 5
+trif 3 5 7
+color 0.5 0.5 1
+trif 2 4 6
+trif 4 6 8
+
+
+object target world
+position x3 2 z3
+xyz -0.1 -0.1 -0.1
+xyz -0.1 -0.1  0.1
+xyz -0.1  0.1 -0.1
+xyz -0.1  0.1  0.1
+xyz  0.1 -0.1 -0.1
+xyz  0.1 -0.1  0.1
+xyz  0.1  0.1 -0.1
+xyz  0.1  0.1  0.1
+color 1 0 1
+trif 1 2 3
+trif 2 3 4
+trif 5 6 7
+trif 6 7 8
+trif 1 2 5
+trif 2 5 6
+trif 3 4 7
+trif 4 7 8
+trif 1 3 5
+trif 3 5 7
+trif 2 4 6
+trif 4 6 8
+
+
+object b1 anchor
+position 0 0.5 0
+bone 1
+quaternion 1 -1 0 0
+xyz 0 -.3 0
+xyz 0 -.3 1
+xyz 0 .3 1
+xyz 0 .3 0
+color 1 0 0
+trif 1 2 3
+trif 3 4 1
+xyz -.3 0 0
+xyz -.3 0 1
+xyz .3 0 1
+xyz .3 0 0
+color 0.5 0 0
+trif 5 6 7
+trif 7 8 5
+
+object b2 b1
+position 0 0 1
+bone 2
+quaternion 1 0 1 0
+xyz 0 -.3 0
+xyz 0 -.3 2
+xyz 0 .3 2
+xyz 0 .3 0
+color 0 1 0
+trif 1 2 3
+trif 3 4 1
+xyz -.3 0 0
+xyz -.3 0 2
+xyz .3 0 2
+xyz .3 0 0
+color 0 .5 0
+trif 5 6 7
+trif 7 8 5
+
+object b3 b2
+position 0 0 2
+bone 3
+quaternion 1 0 1 0
+xyz 0 -.3 0
+xyz 0 -.3 3
+xyz 0 .3 3
+xyz 0 .3 0
+color 0 .5 1
+trif 1 2 3
+trif 3 4 1
+xyz -.3 0 0
+xyz -.3 0 3
+xyz .3 0 3
+xyz .3 0 0
+color 0 .25 .5
+trif 5 6 7
+trif 7 8 5
+
+object b4 b3
+position 0 0 3
+bone 4
+quaternion 1 0 1 0
+xyz 0 -.3 0
+xyz 0 -.3 4
+xyz 0 .3 4
+xyz 0 .3 0
+color 1 .5 0
+trif 1 2 3
+trif 3 4 1
+xyz -.3 0 0
+xyz -.3 0 4
+xyz .3 0 4
+xyz .3 0 0
+color .5 .25 0
+trif 5 6 7
+trif 7 8 5
+
+object b5 b4
+position 0 0 4
+bone 5
+quaternion 1 0 1 0
+fabrik target 2
+xyz 0 -.3 0
+xyz 0 -.3 5
+xyz 0 .3 5
+xyz 0 .3 0
+color 1 1 0
+trif 1 2 3
+trif 3 4 1
+xyz -.3 0 0
+xyz -.3 0 5
+xyz .3 0 5
+xyz .3 0 0
+color .5 .5 0
+trif 5 6 7
+trif 7 8 5

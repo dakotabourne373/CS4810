@@ -1,0 +1,4 @@
+pngs 120 120 hw5fluidslosh- 300
+fps 15
+heat 0 1 8
+

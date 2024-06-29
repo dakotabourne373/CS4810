@@ -1,0 +1,4 @@
+pngs 50 50 hw5fluidbasic2- 300
+fps 15
+heat 0.05 2 0.5
+
